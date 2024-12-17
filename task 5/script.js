@@ -17,7 +17,7 @@ function winner(){
     if (num1>num2){
         winnr.textContent = "Person 1"
     }
-    if (num1 == num2) {
+    else if (num1 == num2) {
         winnr.textContent = "Person 1 and 2 both"
     }
     else{
